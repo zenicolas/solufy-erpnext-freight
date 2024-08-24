@@ -46,7 +46,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Direction",
-   "options": "Import\nExport"
+   "options": "Export\nImport"
   },
   {
    "fieldname": "customer",
@@ -68,13 +68,13 @@
    "fieldname": "transport",
    "fieldtype": "Select",
    "label": "Transport",
-   "options": "Land\nOcean\nAir"
+   "options": "Ocean\nAir\nLand"
   },
   {
    "fieldname": "land_shipping",
    "fieldtype": "Select",
    "label": "Land Shipping",
-   "options": "FTL\nLTL"
+   "options": "FCL\nLCL"
   },
   {
    "fieldname": "order_date",
