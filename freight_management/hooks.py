@@ -118,7 +118,7 @@ doc_events = {
             'freight_management.freight_management.doctype.direct_shipping.direct_shipping.validate'
         ],
   },
-  'Custom Clearance': {
+    'Custom Clearance': {
         'validate': [
             'freight_management.freight_management.doctype.custom_clearance.custom_clearance.validate'
         ],

@@ -7,29 +7,32 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1",
-  "code",
+  "port_name",
   "country",
-  "state",
-  "land",
-  "ocean",
-  "air"
+  "column_break",
+  "port_code",
+  "land_port",
+  "ocean_port",
+  "air_port"
  ],
  "fields": [
   {
-   "fieldname": "name1",
+   "fieldname": "port_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Name",
-   "reqd": 1,
-   "unique": 1
+   "label": "Port Name"
   },
   {
-   "fieldname": "code",
+   "fieldname": "column_break",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "port_code",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Code",
-   "reqd": 1
+   "label": "Port Code",
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "country",
@@ -38,26 +41,20 @@
    "options": "Country"
   },
   {
-   "fieldname": "state",
-   "fieldtype": "Select",
-   "label": "State",
-   "options": "S1\nS2"
-  },
-  {
    "default": "0",
-   "fieldname": "land",
+   "fieldname": "land_port",
    "fieldtype": "Check",
    "label": "Land"
   },
   {
    "default": "0",
-   "fieldname": "ocean",
+   "fieldname": "ocean_port",
    "fieldtype": "Check",
    "label": "Ocean"
   },
   {
    "default": "0",
-   "fieldname": "air",
+   "fieldname": "air_port",
    "fieldtype": "Check",
    "label": "Air"
   }
@@ -66,8 +63,8 @@
  "links": [],
  "modified": "2022-06-27 12:33:21.806896",
  "modified_by": "Administrator",
- "module": "Freight Management",
- "name": "Freight Location",
+ "module": "Geo",
+ "name": "Entry Ports",
  "owner": "Administrator",
  "permissions": [
   {

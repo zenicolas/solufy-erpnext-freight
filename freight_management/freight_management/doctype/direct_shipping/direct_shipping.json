@@ -58,7 +58,7 @@
    "fieldname": "consignee",
    "fieldtype": "Link",
    "label": "Consignee",
-   "options": "Customer"
+   "options": "Address"
   },
   {
    "fieldname": "column_break_5",
@@ -96,13 +96,13 @@
    "fieldname": "loading_port",
    "fieldtype": "Link",
    "label": "Loading Port",
-   "options": "Freight Location"
+   "options": "Entry Ports"
   },
   {
    "fieldname": "discharging_port",
    "fieldtype": "Link",
    "label": "Discharging Port",
-   "options": "Freight Location"
+   "options": "Entry Ports"
   },
   {
    "fieldname": "voyage_no",
